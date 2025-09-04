@@ -1,0 +1,18 @@
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+#click-area {
+  margin-top: 20px;
+  position: relative;
+  height: 200px;
+}
+.emoji {
+  position: absolute;
+  animation: fade 1s forwards;
+}
+@keyframes fade {
+  0% {opacity: 1; transform: translateY(0);}
+  100% {opacity: 0; transform: translateY(-50px);}
+}
